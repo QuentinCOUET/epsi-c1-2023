@@ -62,7 +62,7 @@
                 }
             },
             mounted() {
-                axios.get('https://data.nantesmetropole.fr/api/explore/v2.1/catalog/datasets/244400404_aires-covoiturage-nantes-metropole/records?limit=20')
+                axios.get('https://data.nantesmetropole.fr/api/explore/v2.1/catalog/datasets/244400404_aires-covoiturage-nantes-metropole/records?limit=30')
                     .then(response => {
                         this.apiData = response.data;
                         // Initialiser filteredAires avec toutes les aires de covoiturage
